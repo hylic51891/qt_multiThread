@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/vs,c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=vs,c++
+# Created by https://www.toptal.com/developers/gitignore/api/vs,c++,qt
+# Edit at https://www.toptal.com/developers/gitignore?templates=vs,c++,qt
 
 ### C++ ###
 # Prerequisites
@@ -34,6 +34,53 @@
 *.exe
 *.out
 *.app
+
+### Qt ###
+# C++ objects and libs
+*.so.*
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database
+compile_commands.json
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+*_qmlcache.qrc
 
 ### vs ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -388,4 +435,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-# End of https://www.toptal.com/developers/gitignore/api/vs,c++
+# End of https://www.toptal.com/developers/gitignore/api/vs,c++,qt
