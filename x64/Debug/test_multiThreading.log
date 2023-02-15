@@ -1,0 +1,5 @@
+﻿  AutoDetectThread.cpp
+  ResultDealThread.cpp
+D:\workspace\workspace_VS\test_multiThreading\AutoDetectThread.h(2,9): warning C4068: 未知的杂注“execute” (编译源文件 AutoDetectThread.cpp)
+D:\workspace\workspace_VS\test_multiThreading\ResultDealThread.h(2,9): warning C4068: 未知的杂注“execute” (编译源文件 ResultDealThread.cpp)
+  test_multiThreading.vcxproj -> D:\workspace\workspace_VS\test_multiThreading\x64\Debug\test_multiThreading.exe
